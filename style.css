@@ -421,6 +421,11 @@ img {
     transition: .4s;
 }
 
+.skills__list {
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+}
+
 .skills__titles {
     display: flex;
     justify-content: space-between;
@@ -449,6 +454,29 @@ img {
 
 .skills__html {
     width: 90%;
+}
+.skills__css {
+    width: 80%;
+}
+.skills__js {
+    width: 75%;
+}
+.skills__react {
+    width: 85%;
+}
+
+.skills__close .skills__list{
+    height: 0;
+    overflow: hidden;
+}
+
+.skills__open .skills__list{
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+}
+
+.skills__open .skills__arrow{
+    transform: rotate(-100deg);
 }
 
 /*==================== QUALIFICATION ====================*/
