@@ -178,8 +178,8 @@ if(selectedTheme) {
 //Activate / deactivate the theme manually with the button
 themeButton.addEventListener('click', () => {
 
-    document.body.classList.toggle(darktheme)
-    themeButton.classList.toggle(icontheme)
+    document.body.classList.toggle(darkTheme)
+    themeButton.classList.toggle(iconTheme)
 
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
